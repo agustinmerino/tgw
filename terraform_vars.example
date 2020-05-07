@@ -1,0 +1,34 @@
+aws_secret_key = "your secret key"
+aws_access_key = "your access key"
+key_name = "your key name for ec2"
+private_key_path = "C:\\tullave.pem"
+
+network_address_space = {
+  Development = "10.10.0.0/16"
+  UAT = "10.11.0.0/16"
+  Production = "10.12.0.0/16"
+}
+
+instance_size = {
+  Development = "t2.micro"
+  UAT = "t2.micro"
+  Production = "t2.micro"
+}
+
+subnet_public_count = {
+  Development = 1
+  UAT = 2
+  Production = 3
+}
+
+subnet_private_count = {
+  Development = 1
+  UAT = 2
+  Production = 1
+}
+
+instance_count = {
+  Development = 1
+  UAT = 1
+  Production = 1
+}
